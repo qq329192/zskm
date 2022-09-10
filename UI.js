@@ -565,7 +565,7 @@ function 登录成功后跳转的主界面() {
 
   ui.cardNumTxt.setText(瑞科验证SDK.登录结果.登录成功后的卡密);
   ui.endTimeTxt.setText(瑞科验证SDK.登录结果.到期时间);
-  ui.qdjb.on("click", () => {engines.execScriptFile("/data/user/0/com.qgzsgcb/files/project/main1.js");
+  ui.qdjb.on("click", () => {engines.execScriptFile("/data/user/0/com.qgzsgcbkm/files/project/main1.js");
 
 })
 
